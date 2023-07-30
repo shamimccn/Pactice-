@@ -1,0 +1,109 @@
+@media (max-width:992px){
+    #blog-banner-section{
+        flex-direction: column;
+    }
+    #blog-banner-section article{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .card-container{
+       width: 50%;
+      flex-direction: column;
+      flex-wrap: wrap;
+       
+    }
+}
+
+/* ----------------------------------------- */
+@media (max-width:768px){
+    html{
+        font-size: 55.5%;
+    }
+    #blog-banner-section article{
+        width: 80%;
+    }
+    .card-container{
+        width: 80%;
+     }
+    
+    #archives{
+        min-height: auto;
+    } 
+
+    .blog-post{
+        flex-direction: column;
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+}
+/* ----------------------------------------- */
+@media (max-width:600px){
+
+    html{
+        font-size: 48.5%;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav ul{
+        padding-left: 2.5rem;
+    }
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin: 1rem 0rem;
+    }
+
+    #blog-banner-section{
+        min-height: auto;
+    }
+    #blog-banner-section article{
+        width: 90%;
+    }
+    .banner-img{
+        max-width: 100%;
+    }
+
+
+    #blog-about{
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-container{
+        width: 90%;
+    }
+
+    .archives-container-lists{
+        flex-wrap: wrap;
+    }
+
+    .blog-post{
+        width: 90%;  
+    }
+    #contact-form{
+        width: 90%;
+    }
+    .form-control{
+        flex-direction: column;
+    }
+    input,textarea{
+        max-width: 100%;
+    }
+    .form-control label{
+        margin-bottom: 0.5rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #menubar2{
+        display: flex;
+    }
+}
+/* ----------------------------------------- */
+@media (max-width:400px){}
